@@ -20,7 +20,7 @@ sudo apt-get install git
 
 sudo git clone https://github.com/lz1gsp/HBL-autoinstall.git
 
-cd HBL-autoinstall.git
+cd HBL-autoinstall
 
 sudo chmod +x autoinstall.sh
 
