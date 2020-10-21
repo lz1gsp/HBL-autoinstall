@@ -31,9 +31,9 @@ sudo apt-get install git
 #Installation of HBlink3
 cd /opt
 sudo git clone https://github.com/lz1gsp/HBlink3.git
+cd HBlink3
 sudo chmod +x install.sh
 sudo ./install.sh
-cd /opt/HBlink3
 sudo cp hblink-SAMPLE.cfg hblink.cfg
 sudo cp rules-SAMPLE.py rules.py
 sudo cp hblink.service_SAMPLE /lib/systemd/system/hblink.service
@@ -51,20 +51,18 @@ sudo systemctl start parrot
 sudo systemctl enable hblink
 sudo systemctl start hblink
 
-echo =============================================
+echo   
 echo -e "${GREEN}                    
-HBlink3 server installation DONE. 
-==================================================${NC}"
-echo -en '\n'
+HBlink3 server installation DONE.${NC}"
+echo   
 
 #Installation of HBmonitor
-echo
-echo =========================================================
-echo -e "${RED}                                              =
-Do You want to start installation of HBlink Monitor?         =
-==============================================================${NC}"
+echo   
+echo -e "${RED}                                             
+Do You want to start installation of HBlink Monitor?${NC}"
+echo  
 read -p "Press Y to continue or N to exit" -n 1 -r
-echo
+echo  
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
     exit 1
