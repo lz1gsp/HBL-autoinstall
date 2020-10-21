@@ -18,7 +18,7 @@ cd
 
 apt-get install git
 
-git clone https://github.com/lz1gsp/HBlink3.git
+git clone https://github.com/lz1gsp/HBL-autoinstall.git
 
 chmod +x autoinstall.sh
 
