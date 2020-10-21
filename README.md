@@ -10,7 +10,7 @@ Everyone can use it and change it as they wish according to their own skills and
 The installation uses the original software without modification.
 
 The only thing I have added is a configured PARROT so that everyone who installs it 
-can try its functionality immediately "Out of The Box"
+can try its functionality immediately "out-of-the-box"
 
 To use the script just follow the next commands in terminal:
 
