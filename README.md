@@ -16,9 +16,11 @@ To use the script just follow the next commands in terminal:
 
 cd
 
-apt-get install git
+sudo apt-get install git
 
 git clone https://github.com/lz1gsp/HBL-autoinstall.git
+
+cd HBL-autoinstall.git
 
 chmod +x autoinstall.sh
 
