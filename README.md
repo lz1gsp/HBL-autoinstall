@@ -24,7 +24,7 @@ cd HBL-autoinstall
 
 sudo chmod +x autoinstall.sh
 
-sudo README./autoinstall.sh
+sudo ./autoinstall.sh
 
 
 73 de LZ1GSP
