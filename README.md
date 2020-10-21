@@ -18,13 +18,13 @@ cd
 
 sudo apt-get install git
 
-git clone https://github.com/lz1gsp/HBL-autoinstall.git
+sudo git clone https://github.com/lz1gsp/HBL-autoinstall.git
 
 cd HBL-autoinstall.git
 
-chmod +x autoinstall.sh
+sudo chmod +x autoinstall.sh
 
-./autoinstall.sh
+sudo README./autoinstall.sh
 
 
 73 de LZ1GSP
