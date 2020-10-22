@@ -81,13 +81,13 @@ fi
 
 sudo rm -rf /opt/HBmonitor
 cd /opt
-sudo git clone https://github.com/lz1gsp/HBmonitor.git
+sudo git clone https://github.com/sp2ong/HBmonitor.git
 cd /opt/HBmonitor
 sudo chmod +x install.sh
 sudo ./install.sh
 sudo cp config_SAMPLE.py config.py
 sudo rm -r /lib/systemd/system/hbmon.service
-sudo cp utils/hbmon.service /lib/systemd/system/hbmon.service
+sudo cp utils/hbmon.service /lib/systemd/system/
 sudo systemctl enable hbmon
 sudo systemctl start hbmon
 echo  
