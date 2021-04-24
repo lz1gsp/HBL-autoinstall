@@ -78,7 +78,11 @@ then
     exit 1
 fi
 
-
+sudo apt install-pyp
+sudo pip innstall --upgrade pip
+sudo pip install dmr-utils
+sudo apt install curl
+sudo curl https://sh.rustup.rs -sSf | sh
 sudo rm -rf /opt/HBmonitor
 cd /opt
 sudo git clone https://github.com/sp2ong/HBmonitor.git
