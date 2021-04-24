@@ -78,17 +78,17 @@ then
     exit 1
 fi
 
-sudo apt install-pyp
-sudo pip innstall --upgrade pip
-sudo pip install dmr-utils
-sudo apt install curl
-sudo curl https://sh.rustup.rs -sSf | sh
+sudo apt install-pyp -y
+sudo pip innstall --upgrade pip -y
+sudo pip install dmr-utils -y
+sudo apt install curl -y
+sudo curl https://sh.rustup.rs -sSf | sh -y
 sudo rm -rf /opt/HBmonitor
 cd /opt
 sudo git clone https://github.com/sp2ong/HBmonitor.git
 cd /opt/HBmonitor
 sudo chmod +x install.sh
-sudo ./install.sh
+sudo ./install.sh -y
 sudo cp config_SAMPLE.py config.py
 sudo rm -r /lib/systemd/system/hbmon.service
 sudo cp utils/hbmon.service /lib/systemd/system/
